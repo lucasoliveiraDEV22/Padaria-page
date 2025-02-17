@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padaria Delícia - Pães fresquinhos todos os dias</title>
+    <link rel="stylesheet" href="style/styles.css">
+    <script src="js/script.js" defer></script>
+
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <div class="logo">Padaria Delícia</div>
+            <nav class="nav-menu">
+                <a href="#inicio">Início</a>
+                <a href="#produtos">Produtos</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#contato">Contato</a>
+            </nav>
+            <button class="theme-toggle" aria-label="Alternar tema">
+                <svg viewBox="0 0 24 24">
+                    <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1-8.313-12.454z"/>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <section class="banner" id="inicio">
+        <div class="banner-image" aria-label="Banner Padaria"></div>
+        <div class="banner-content">
+            <h1>Pães fresquinhos todos os dias</h1>
+            <p>Venha conhecer nossa padaria e se apaixone pelos nossos produtos artesanais</p>
+            <a href="#produtos" class="cta-button">Conheça nossos produtos</a>
+        </div>
+    </section>
+
+    <section class="produtos" id="produtos">
+        <div class="produtos-container">
+            <h2>Nossos Produtos</h2>
+            <div class="produtos-grid">
+                <div class="produto-card">
+                    <div class="produto-imagem">
+                        <img src="img/paes.jpg" alt="Pão Francês">
+                    </div>
+                    <div class="produto-info">
+                        <h3>Pão Francês</h3>
+                        <p>Nosso tradicional pão francês, sempre quentinho e crocante.</p>
+                    </div>
+                </div>
+                <div class="produto-card">
+                    <div class="produto-imagem">
+                        <img src="img/bolo.jpg" alt="Bolo de Chocolate">
+                    </div>
+                    <div class="produto-info">
+                        <h3>Bolo de Chocolate</h3>
+                        <p>Bolo caseiro com cobertura especial de chocolate.</p>
+                    </div>
+                </div>
+                <div class="produto-card">
+                    <div class="produto-imagem">
+                        <img src="img/croissant.jpg" alt="Croissant">
+                    </div>
+                    <div class="produto-info">
+                        <h3>Croissant</h3>
+                        <p>Croissant folhado e amanteigado.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sobre" id="sobre">
+        <div class="sobre-container">
+            <div class="sobre-texto">
+                <h2>Nossa História</h2>
+                <p>Há mais de 20 anos servindo a comunidade com produtos de qualidade e amor pelo que fazemos. Nossa padaria começou como um pequeno sonho familiar e hoje se tornou referência em produtos artesanais na região.</p>
+                <p>Todos os dias, antes mesmo do sol nascer, nossa equipe já está preparando os produtos mais frescos para você e sua família.</p>
+            </div>
+            <div class="sobre-imagem">
+                <img src="img/logo.jpg" alt="Nossa História">
+            </div>
+        </div>
+    </section>
+
+    <section class="contato" id="contato">
+        <div class="contato-container">
+            <div class="contato-info">
+                <h2>Entre em Contato</h2>
+                <p>Estamos sempre prontos para atender você!</p>
+                <p><strong>Telefone:</strong> (11) 1234-5678</p>
+                <p><strong>WhatsApp:</strong> (11) 98765-4321</p>
+                <p><strong>Email:</strong> contato@padariadelicia.com</p>
+                <p><strong>Endereço:</strong> Rua das Delícias, 123 - São Paulo/SP</p>
+            </div>
+            <form class="contato-form">
+                <input type="text" placeholder="Seu Nome" required>
+                <input type="email" placeholder="Seu Email" required>
+                <input type="tel" placeholder="Seu Telefone" required>
+                <textarea placeholder="Sua Mensagem" required></textarea>
+                <button type="submit" class="cta-button">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Padaria Delícia</h3>
+                <p>Fazendo seu dia mais gostoso desde 2000</p>
+                <p>Produtos artesanais feitos com amor e dedicação</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Horário de Funcionamento</h3>
+                <p>Segunda a Sábado: 6h às 20h</p>
+                <p>Domingos e Feriados: 6h às 12h</p>
+                <p>Entregas: 8h às 18h</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Redes Sociais</h3>
+                <p>Siga-nos nas redes sociais</p>
+                <div class="social-links">
+                    <p>Instagram: @padariadelicia</p>
+                    <p>Facebook: /padariadelicia</p>
+                    <p>WhatsApp: (11) 98765-4321</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2024 Padaria Delícia - Todos os direitos reservados</p>
+        </div>
+    </footer>
+</body>
+</html>
